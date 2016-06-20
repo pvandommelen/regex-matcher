@@ -1,0 +1,28 @@
+{
+    "name": "pvandommelen/regex-matcher",
+    "description": "Parsing, compiling and matching regular expressions in PHP",
+    "tags": [ "regex", "regexp", "matcher", "parser", "compiler" ],
+    "require-dev": {
+        "phpunit/phpunit": "5.3.*"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Peter van Dommelen",
+            "email": "pvandommelen@users.noreply.github.com"
+        }
+    ],
+    "require": {
+        "pvandommelen/parser": "dev-master"
+    },
+    "autoload": {
+        "psr-4": {
+            "PeterVanDommelen\\RegexMatcher\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "PeterVanDommelen\\RegexMatcher\\": "tests"
+        }
+    }
+}
